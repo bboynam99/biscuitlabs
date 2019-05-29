@@ -1,0 +1,31 @@
+.SbCntHeading {
+  margin-bottom:0.2em;
+}
+
+.SbCntContent {
+  color:#AAA;
+}
+
+.WithrawItem {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding:0.5em;
+  border-radius: 8px;
+  border:1px solid #CCC;
+}
+
+.WithrawItem .ui.grid {
+  margin:0;
+}
+
+.WithrawItem .ui.grid>.row {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+.WithrawItem .ui.grid>.row>.column {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+}

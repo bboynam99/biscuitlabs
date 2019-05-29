@@ -1,0 +1,72 @@
+.AccountBox {
+  padding-top:150px;
+  padding-bottom:50px;
+  border-radius: 0;
+  background-color: #06a4c8;
+  color:white;
+  text-align: center;
+}
+
+.AccountBox h3 {
+  font-size:1.2em;
+  margin:0;
+  padding:0;
+}
+
+.AccountBox .Desc {
+  font-size:0.9em;
+  margin:0;
+  padding:0;
+  color:#AAA;
+}
+
+.AccountBox .AppIcon {
+  width: 120px;
+  height: auto;
+}
+
+.AccountBox .AppLinkBox {
+  clear: both;
+  margin-top:0.1em;
+}
+
+.AccountBox .addressNone {
+  font-size:0.8em;
+  color:white;
+}
+
+.AccountBox .addressLink {
+  font-size:0.7em;
+  color:white;
+  text-decoration: underline;
+}
+
+.AccBoxHeading {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: flex;
+
+}
+
+.AccountButtonBox {
+  margin-top:5px;
+}
+
+.LogoDesc {
+  font-size:1.28em;
+  font-weight: lighter;
+}
+
+.AccountBox .KlayIcon {
+  width:360px;
+  height:202px;
+  margin-bottom:-30px;
+}
+
+@media screen and (max-width: 800px) {
+  .AccountBox .KlayIcon {
+    width:288px;
+    height:161px;
+  }
+}

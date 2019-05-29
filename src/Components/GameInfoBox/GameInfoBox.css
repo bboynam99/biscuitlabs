@@ -1,0 +1,45 @@
+.GameInfoBox {
+  padding-top:30px;
+  padding-bottom:30px;
+  min-height: 300px;
+  margin-top:-1px;
+  background-color: #06a4c8;
+  text-align: center;
+  color:white;
+}
+
+.GameInfoBox div {
+  margin-top:1.5em;
+  margin-bottom:1em;
+}
+
+.GameInfoBox h1 {
+  font-size:1em;
+  margin:0;
+  padding:0;
+}
+
+.GameInfoBox .Desc {
+  font-size:0.9em;
+  margin:0;
+  padding:0;
+  color:#AAA;
+}
+
+.GameInfoBox .AppIcon {
+  width: 140px;
+  height: auto;
+}
+
+.GameInfoBox .AppLinkBox {
+  clear: both;
+  margin-top:0.3em;
+}
+
+@media screen and (max-width: 800px) {
+  .GameInfoBox .AppIcon {
+    width: 110px;
+    height: auto;
+  }
+  
+}

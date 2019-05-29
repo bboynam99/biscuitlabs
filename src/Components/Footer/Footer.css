@@ -1,0 +1,30 @@
+.Footer {
+    background-color: #f5f7fa;
+    padding-top:1.2em;
+    padding-bottom:1.2em;
+}
+
+.FooterHeading {
+    margin: 0.5em 0em;
+    text-align: center;
+}
+
+.CompanyName {
+    font-size: 1em;
+    color:#888;
+    margin:1.5em;
+}
+
+.BizDesc {
+    font-size: 0.88em;
+    color:#AAA;
+    text-align:left;
+}
+
+.Footer .item:first {
+    border-left:0;
+}
+
+.Footer .item:last {
+    border-right:0;
+}

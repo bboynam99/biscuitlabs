@@ -1,0 +1,37 @@
+.ShopItem {
+}
+
+.ShopItem > .item {
+  border-top:1px solid #EEE;
+  padding-top:15px;
+  height:80px;
+}
+
+.ItemIcon {
+  width:50px;
+  height:50px;
+}
+
+.PurchaseBox {
+  padding-top: 22px;
+}
+
+.ItemTitleBox {
+  padding:20px 0px;
+}
+
+.ItemTitle {
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.WonPrice {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #2185d0;
+}
+
+.KlayPrice {
+  font-size: 0.85em;
+  color: #888;
+}
